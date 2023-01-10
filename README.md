@@ -101,9 +101,22 @@ A seguir você irá encontrar as seguintes intruções para baixar o projeto loc
 
 - Instalação das dependências
 
-      cd <nome da pasta>
-      npm install ou yarn install
+      cd <pasta do repositorio>
+
+  - cd backend
+
+        npm install
+
+  - cd frontend
+
+        npm install
 
 - Execução da aplicação
 
-      npm start ou yarn start
+  - cd backend
+
+        npm run dev
+
+  - cd frontend
+
+        npm start
