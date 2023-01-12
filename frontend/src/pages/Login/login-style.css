@@ -1,0 +1,93 @@
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.title-store h1 {
+  background: -webkit-linear-gradient(rgb(207, 228, 24), rgb(102, 232, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-form {
+  width: 35%;
+  height: 200px;
+
+  border-radius: 5px;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens label {
+  color: #378b069d;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: -180px;
+}
+
+.itens input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 0px 2px #000;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+
+.itens input:focus {
+  outline: none;
+}
+
+.item-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-check input {
+  width: 15px;
+  margin-left: -120px;
+}
+
+.item-check label {
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.item-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-button button {
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.btn-login {
+  background: blue;
+}
+
+.btn-login:hover {
+  font-weight: 700;
+}

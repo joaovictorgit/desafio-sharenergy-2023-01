@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Client } from "interfaces/client";
+import { Client } from "../interfaces/client";
 
 const clientModel = require("../models/client-model");
 

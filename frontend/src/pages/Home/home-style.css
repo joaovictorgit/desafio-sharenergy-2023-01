@@ -1,0 +1,59 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container-header h1 {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-header .container-menu {
+  margin-top: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.item-menu {
+  height: 30px;
+  justify-content: center;
+}
+
+.item-menu label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item-menu label:hover {
+  font-size: 22px;
+}
+
+.container-list {
+  width: 80%;
+  height: 500px;
+}
