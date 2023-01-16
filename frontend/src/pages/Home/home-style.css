@@ -19,41 +19,29 @@
 }
 
 .container-body {
+  width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   column-gap: 15px;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 0 auto;
 }
 
-.container-header .container-menu {
-  margin-top: 20px;
-  width: 20%;
+.container-header-body {
   display: flex;
   flex-direction: row;
-  column-gap: 10px;
-  padding: 10px;
-}
-
-.item-menu {
-  height: 30px;
-  justify-content: center;
-}
-
-.item-menu label {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.item-menu label:hover {
-  font-size: 22px;
+  column-gap: 40px;
 }
 
 .container-list {
   width: 80%;
-  height: 500px;
+}
+
+.container-search-user {
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

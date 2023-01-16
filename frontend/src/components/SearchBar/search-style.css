@@ -1,0 +1,29 @@
+.container-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.icon-search {
+  z-index: 1;
+  padding: 12px;
+  max-width: 40px;
+}
+
+.text-search {
+  z-index: -1;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 4px rgb(182, 172, 172));
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  font-weight: 500;
+}
+
+.text-search:focus {
+  outline-style: none;
+}

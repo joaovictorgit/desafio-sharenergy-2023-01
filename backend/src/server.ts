@@ -7,11 +7,13 @@ require("dotenv").config();
 
 const PORT = process.env.PORT;
 const mongoString = process.env.DATABASE_URL;
-
-mongoose.connect(mongoString?.toString());
+mongoose.set("strictQuery", true);
+mongoose.connect(mongoString, {
+  useNewUrlParser: true,
+});
 const database = mongoose.connection;
 
-database.once("connected", () => {
+database.once("open", () => {
   console.log("Database connected!");
 });
 

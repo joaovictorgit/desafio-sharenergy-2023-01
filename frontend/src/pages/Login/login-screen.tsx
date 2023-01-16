@@ -1,4 +1,4 @@
-import { AxiosResponse } from "axios";
+import axios, { AxiosResponse } from "axios";
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../service/api";
@@ -9,6 +9,7 @@ const LoginScreen = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const formRef = useRef() as React.MutableRefObject<HTMLFormElement>;
+  localStorage.setItem("@name", JSON.stringify(""));
 
   const logar = (e: any): void => {
     e.preventDefault();
@@ -19,6 +20,7 @@ const LoginScreen = () => {
           password: password,
         })
         .then((response: AxiosResponse) => {
+          localStorage.setItem("@token", JSON.stringify(response.data.token));
           navigate("/home");
         });
     } catch (error: unknown) {
@@ -45,6 +47,7 @@ const LoginScreen = () => {
           <label>Username</label>
           <input
             type="text"
+            className="textInput"
             placeholder="Enter your username"
             onChange={(e: any) => onChangeData(e, "username")}
           />
@@ -54,13 +57,14 @@ const LoginScreen = () => {
           <input
             type="password"
             placeholder="Enter your password"
+            className="textInput"
             onChange={(e: any) => onChangeData(e, "password")}
           />
         </div>
         <div className="itens">
           <div className="item-check">
             <input type="checkbox" name="Remember me" />
-            <label>Remember me</label>
+            <label className="remember">Remember me</label>
           </div>
         </div>
         <div className="item-button">

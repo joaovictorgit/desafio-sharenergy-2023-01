@@ -1,0 +1,94 @@
+.container-client {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.container-body-client {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-form-client {
+  width: 250px;
+  height: 400px;
+}
+
+.container-form-client h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form-client form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.container-form-client form label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.container-form-client input {
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  text-indent: 10px;
+  filter: drop-shadow(4px 4px 4px rgb(182, 172, 172));
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.address .disctrit {
+  width: 160px;
+}
+
+.address .number {
+  width: 50px;
+}
+
+.container-form-client input:focus {
+  outline: none;
+}
+.container-form-client button {
+  border: none;
+  border-radius: 10px;
+  background: rgb(2, 66, 2);
+  color: white;
+  font-weight: 600;
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container-form-client button:hover {
+  transform: scale(1.1);
+}
+
+.container-list-clients {
+  width: 800px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-body-client {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container-body-client {
+    flex-direction: column;
+  }
+}

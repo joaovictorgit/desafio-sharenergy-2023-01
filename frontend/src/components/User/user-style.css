@@ -1,0 +1,32 @@
+.user {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  box-shadow: 3px 3px 3px rgb(182, 172, 172);
+  border-top: 1px solid rgb(182, 172, 172);
+  border-left: 2px solid rgb(182, 172, 172);
+  border-radius: 5px;
+}
+
+.container-image {
+  padding: 5px;
+}
+
+.container-image img {
+  border-radius: 50%;
+}
+
+.container-info {
+  height: 95px;
+  margin-top: 20px;
+}
+
+.item label {
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+}

@@ -1,0 +1,55 @@
+.container-list-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.container-itens-clients {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.item-client {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 60px;
+  background: rgb(250, 248, 248);
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 4px rgb(182, 172, 172));
+  cursor: pointer;
+}
+
+.item-personal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.item-client button {
+  border: none;
+  background: transparent;
+  position: absolute;
+}
+
+.btn-delete {
+  right: 10px;
+  top: 10px;
+}
+
+.btn-edit {
+  right: 30px;
+  top: 10px;
+}
+
+.icon-delete {
+  cursor: pointer;
+}
+
+.icon-update {
+  cursor: pointer;
+}

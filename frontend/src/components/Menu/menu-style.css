@@ -1,0 +1,25 @@
+.container-header .container-menu {
+  margin-top: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.item-menu {
+  height: 30px;
+  justify-content: center;
+}
+
+.item-menu label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item-menu label:hover {
+  font-size: 22px;
+}

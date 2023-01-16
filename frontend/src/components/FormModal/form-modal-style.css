@@ -1,0 +1,46 @@
+.icon-close {
+  position: absolute;
+  right: 10px;
+}
+
+.container-form-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form-modal input {
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  text-indent: 10px;
+  filter: drop-shadow(4px 4px 4px rgb(182, 172, 172));
+}
+
+.form-modal input:focus {
+  outline: none;
+}
+
+.form-modal label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-modal button {
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.form-modal button:hover {
+  font-weight: 800;
+}

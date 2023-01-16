@@ -20,7 +20,6 @@ const clientSchema = new mongooseModelClient.Schema({
   address: {
     number: Number,
     district: String,
-    complement: String,
     city: String,
   },
   cpf: {
