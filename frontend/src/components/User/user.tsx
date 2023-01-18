@@ -6,7 +6,7 @@ const User = (props: any) => {
   const { large } = picture;
   const { username } = login;
   const { age } = registered;
-  // a foto do usuário, nome completo, email, username e idade.
+
   return (
     <div className="user">
       <div className="container-image">

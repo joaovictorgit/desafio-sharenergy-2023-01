@@ -14,7 +14,7 @@ mongoose.connect(mongoString, {
 const database = mongoose.connection;
 
 database.once("open", () => {
-  console.log("Database connected!");
+  console.log("✔ Database connected!");
 });
 
 database.on("error", (error: unknown) => {

@@ -12,7 +12,7 @@ const Menu = () => {
         <div className="item-menu" onClick={() => navigate("/cat")}>
           <label>Cat</label>
         </div>
-        <div className="item-menu">
+        <div className="item-menu" onClick={() => navigate("/dog")}>
           <label>Dog</label>
         </div>
         <div className="item-menu" onClick={() => navigate("/client")}>

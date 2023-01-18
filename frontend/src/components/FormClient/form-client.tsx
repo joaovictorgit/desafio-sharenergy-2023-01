@@ -4,6 +4,7 @@ import api from "../../service/api";
 const FormClient = (props: any) => {
   const { getAllClients } = props;
   const formRef = useRef() as React.MutableRefObject<HTMLFormElement>;
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");

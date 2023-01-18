@@ -1,10 +1,10 @@
-.container-cat {
+.container-dog {
   display: flex;
   flex-direction: column;
   row-gap: 15px;
 }
 
-.container-body-cat {
+.container-body-dog {
   width: 50%;
   height: 350px;
   display: flex;
@@ -16,38 +16,21 @@
   margin-top: 100px;
 }
 
-.container-body-cat h1 {
+.container-body-dog h1 {
   font-size: 25px;
   font-weight: 400;
 }
 
-.form-cat {
+.form-dog {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
 
-.form-cat input {
-  width: 100px;
-  border: none;
-  border-radius: 10px;
-  text-indent: 10px;
-  filter: drop-shadow(4px 4px 4px rgb(182, 172, 172));
-}
-
-.form-cat input:focus {
-  outline: none;
-}
-
-.form-cat button {
+.form-dog button {
   padding: 10px;
   border: none;
   border-radius: 5px;
   background: red;
   color: white;
-}
-
-.cat-img {
-  width: 400px;
-  height: auto;
 }
