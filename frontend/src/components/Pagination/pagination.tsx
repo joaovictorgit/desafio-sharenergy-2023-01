@@ -10,10 +10,9 @@ const Pagination = (props: any) => {
     <div className="container-pagination">
       <div className="pagination">
         {pages.map((number: number, index: number) => (
-          <div className="link-pagination">
+          <div className="link-pagination" key={index}>
             <a
               id="number-pagination"
-              key={index}
               href={`/home/#`}
               onClick={() => handleClick(number)}
               className={`${page === number && "active"}`}

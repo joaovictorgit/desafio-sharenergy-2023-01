@@ -12,9 +12,9 @@ const DogScreen = () => {
     e.preventDefault();
   };
 
-  const getImage = () => {
+  const getImage = async () => {
     try {
-      axios({
+      await axios({
         method: "get",
         url: `https://random.dog/`,
         withCredentials: false,
