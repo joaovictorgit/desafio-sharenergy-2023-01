@@ -115,8 +115,17 @@ A seguir você irá encontrar as seguintes intruções para baixar o projeto loc
 
   - cd backend
 
-        npm run dev
+    - Application
+
+          npm run dev
+
+    - Test
+
+          npm test
 
   - cd frontend
 
         npm start
+
+- Link do vídeo
+  https://youtu.be/ymodRJdY6HQ
